@@ -12,7 +12,7 @@ usersController.register = (req, res) => {
         })
         .catch((err) => {
             res.json(err)
-        // })
+        })
 }
 
 usersController.login = (req, res) => {
