@@ -19,7 +19,7 @@ messagesController.show = (req, res) => {
     const id = req.params.id 
     Message.findById(id)
         .then((message) => {
-            res.json(message)///
+            res.json(message)
         })
 }
 
