@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 // * can execute any code 
 // * can modify req, res objects
 // * can end req, res cycle
-// * call the next middlware function
+// * call the next middlware function//
 
 const authenticateUser = (req, res, next) => {
     // console.log(req.headers)

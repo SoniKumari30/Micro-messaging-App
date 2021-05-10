@@ -5,7 +5,7 @@ const messageSchema = new Schema({
     body: {
         type: String, 
         required: true, 
-        minlength: 3
+        minlength: 3//
     },
     userId: {
         type: Schema.Types.ObjectId,
