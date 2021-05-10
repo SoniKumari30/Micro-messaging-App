@@ -12,7 +12,7 @@ messagesController.myMessages = (req, res) => {
     Message.find({ userId: req.userId })
         .then((messages) => {
             res.json(messages)
-        })//
+        })
 }
 
 messagesController.show = (req, res) => {
