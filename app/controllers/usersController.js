@@ -9,7 +9,7 @@ usersController.register = (req, res) => {
     user.save()
         .then((user) => {
             res.json(user)
-        })
+        })///
         .catch((err) => {
             res.json(err)
         })
